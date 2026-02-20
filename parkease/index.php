@@ -63,7 +63,7 @@ $newsletter_message = '';
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['newsletter_email'])) {
     $email = filter_var($_POST['newsletter_email'], FILTER_SANITIZE_EMAIL);
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        // Store in database (you'd need a newsletter table)
+        // Store in database (we'll  need a newsletter table)
         $newsletter_message = '<div class="alert-success">Thanks for subscribing!</div>';
     } else {
         $newsletter_message = '<div class="alert-error">Please enter a valid email.</div>';
@@ -221,7 +221,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['newsletter_email'])) {
       text-decoration: none;
     }
 
-    /* ── MODERN HERO CAROUSEL ── */
+
     .hero {
       position: relative;
       height: 700px;
@@ -263,7 +263,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['newsletter_email'])) {
       transform: scale(1.1);
     }
 
-    /* Dark overlay for better text readability */
     .hero-overlay {
       position: absolute;
       top: 0;
@@ -1282,7 +1281,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['newsletter_email'])) {
 <!-- HERO SECTION WITH CAROUSEL -->
 <section class="hero">
   <div class="carousel-container" id="heroCarousel">
-    <!-- Carousel Slides - Add your 3 images here -->
     <div class="carousel-slide active">
       <img src="img/carosel (3).jpg" alt="Parking Space 1" onerror="this.src='https://images.unsplash.com/photo-1573342218828-3df50b1a3a5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'">
     </div>
@@ -1294,7 +1292,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['newsletter_email'])) {
     </div>
   </div>
   
-  <!-- Dark overlay for better text visibility -->
   <div class="hero-overlay"></div>
   
   <!-- Progress bar -->
@@ -1318,8 +1315,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['newsletter_email'])) {
     <div class="carousel-dot" onclick="goToSlide(1)"></div>
     <div class="carousel-dot" onclick="goToSlide(2)"></div>
   </div>
-
-  <!-- Hero Content (Centered) -->
+<!-- Hero content -->
   <div class="hero-content">
     <h1>
       <span>Find &amp; Book Parking</span>
