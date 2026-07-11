@@ -1,0 +1,19 @@
+# Environment
+parkease/.env
+parkease/.env.*
+!parkease/.env.example
+
+# Logs
+parkease/logs/
+parkease/cron/*.log
+parkease/cron/*.txt
+parkease/cron/*.lock
+
+# Vendor
+parkease/vendor/
+vendor/
+node_modules/
+
+# Composer
+composer.lock
+parkease/composer.lock

@@ -1,0 +1,711 @@
+2026-02-25 01:36:47 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-07T01:36
+    [end_datetime] => 2026-02-07T01:36
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+End time not after start time
+2026-02-25 01:36:57 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-06T01:36
+    [end_datetime] => 2026-02-13T01:36
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Amount calculated: 16800, Commission: 2520
+Reservation created with ID: 5
+Transaction committed. Redirecting to process-payment.php?id=5
+Redirect URL: http://localhost/Park_Ease/spacenode/process-payment.php?id=5
+2026-02-25 01:38:45 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-26 12:00
+    [end_datetime] => 2026-02-27 12:00
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [special_requests] => 
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 01:39:12 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-26 12:00
+    [end_datetime] => 2026-02-27 12:00
+    [vehicle_number] => bjj-777
+    [vehicle_model] => TEST CAR
+    [special_requests] => 
+    [payment_method] => cash
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 01:43:07 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-26 12:00
+    [vehicle_number] => bjj-777
+    [vehicle_model] => toyota
+    [special_requests] => 
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 01:47:43 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-07T01:47
+    [end_datetime] => 2026-02-27T01:47
+    [vehicle_number] => bjj-777
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 01:47:54 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-21T01:47
+    [end_datetime] => 2026-02-20T01:47
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+End time not after start time
+2026-02-25 01:54:54 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-14T01:54
+    [end_datetime] => 2026-02-27T01:57
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 01:55:10 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-14T01:54
+    [end_datetime] => 2026-02-18T01:55
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Amount calculated: 9601.67, Commission: 1441
+Reservation created with ID: 6
+Transaction committed. Redirecting to process-payment.php?id=6
+Redirect URL: http://localhost/Park_Ease/spacenode/process-payment.php?id=6
+2026-02-25 02:03:54 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-26 12:00
+    [vehicle_number] => bjj-777
+    [vehicle_model] => lexus
+    [special_requests] => demo
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:05:44 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-13T02:05
+    [end_datetime] => 2026-02-14T02:05
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:05:57 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-21T02:05
+    [end_datetime] => 2026-02-14T02:05
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+End time not after start time
+2026-02-25 02:06:27 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-03-01T02:06
+    [end_datetime] => 2026-03-28T02:06
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Amount calculated: 64800, Commission: 9720
+Reservation created with ID: 7
+Transaction committed. Redirecting to process-payment.php?id=7
+Redirect URL: http://localhost/Park_Ease/spacenode/process-payment.php?id=7
+2026-02-25 02:10:30 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-26 12:00
+    [end_datetime] => 2026-03-01 12:00
+    [vehicle_number] => TEST123
+    [vehicle_model] => toyota
+    [special_requests] => 
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:13:01 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-28 12:00
+    [vehicle_number] => bjj-777
+    [vehicle_model] => lexus
+    [special_requests] => 
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:20:13 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-26 12:00
+    [vehicle_number] => bjj-777
+    [vehicle_model] => lexus
+    [special_requests] => demo
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:20:58 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-26 13:15
+    [end_datetime] => 2026-02-28 20:30
+    [vehicle_number] => ghj765
+    [vehicle_model] => TEST CAR
+    [special_requests] => 
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:23:32 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-26 12:00
+    [vehicle_number] => TEST123
+    [vehicle_model] => toyota
+    [special_requests] => 
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:23:59 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-13T02:23
+    [end_datetime] => 2026-02-28T02:23
+    [vehicle_number] => bjj-777
+    [vehicle_model] => TEST CAR
+    [special_requests] => 
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:24:46 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-28 12:00
+    [end_datetime] => 2026-02-28 14:00
+    [vehicle_number] => bjj-777
+    [vehicle_model] => toyota
+    [special_requests] => demo
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:30:02 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-26 12:00
+    [vehicle_number] => ghj765
+    [vehicle_model] => lexus
+    [special_requests] => demo
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:31:59 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-27 12:00
+    [vehicle_number] => bjj-777
+    [vehicle_model] => lexus
+    [special_requests] => 
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:39:31 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-27 12:00
+    [vehicle_number] => bjj-777
+    [vehicle_model] => lexus
+    [special_requests] => 
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:43:48 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-28 12:00
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [special_requests] => 
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:46:04 - process-booking.php started
+2026-02-25 02:48:43 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-03-26 12:00
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [special_requests] => 
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:49:49 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25T02:49
+    [end_datetime] => 2026-02-28T02:49
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:50:12 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25T02:49
+    [end_datetime] => 2026-02-28T02:49
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:50:45 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25T02:50
+    [end_datetime] => 2026-03-06T02:50
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:51:22 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25T17:53
+    [end_datetime] => 2026-03-14T04:53
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:51:54 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-27T02:51
+    [end_datetime] => 2026-02-28T02:51
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 02:53:06 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25T02:52
+    [end_datetime] => 2026-02-28T02:52
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 15:09:26 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-05T15:09
+    [end_datetime] => 2026-02-27T15:09
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 15:10:17 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-27 12:00
+    [vehicle_number] => bjj-777
+    [vehicle_model] => lexus
+    [special_requests] => demo
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 15:14:02 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-13T15:13
+    [end_datetime] => 2026-02-28T15:13
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 15:14:17 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25T15:14
+    [end_datetime] => 2026-02-28T15:14
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 15:15:20 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-26T15:15
+    [end_datetime] => 2026-02-28T15:15
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 15:16:37 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25T15:16
+    [end_datetime] => 2026-02-27T15:15
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 15:20:34 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-26T15:20
+    [end_datetime] => 2026-02-28T15:20
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 19:47:23 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-27 12:00
+    [vehicle_number] => bjj-777
+    [vehicle_model] => lexus
+    [special_requests] => deoooo
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 19:50:50 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-28 12:00
+    [vehicle_number] => bjj-777
+    [vehicle_model] => TEST CAR
+    [special_requests] => demo
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 20:10:49 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-06T20:10
+    [end_datetime] => 2026-02-28T20:10
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 20:14:34 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-26T20:14
+    [end_datetime] => 2026-02-28T20:14
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 20:22:37 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-26T20:22
+    [end_datetime] => 2026-02-28T20:22
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 20:26:45 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-26T20:26
+    [end_datetime] => 2026-02-28T20:26
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 20:29:22 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-26T20:29
+    [end_datetime] => 2026-02-28T12:33
+    [vehicle_number] => TEST123
+    [vehicle_model] => TEST CAR
+    [payment_method] => card
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 20:29:46 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [test] => hello
+)
+
+Missing POST data
+2026-02-25 20:39:22 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-25 12:00
+    [end_datetime] => 2026-02-28 12:00
+    [vehicle_number] => TEST123
+    [vehicle_model] => toyota
+    [special_requests] => 
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 20:51:50 - process-booking.php started
+REQUEST_METHOD: POST
+POST data: Array
+(
+    [parking_id] => 19
+    [start_datetime] => 2026-02-26T20:51
+    [end_datetime] => 2026-02-28T20:51
+    [vehicle_number] => ghj765
+    [vehicle_model] => toyota
+    [special_requests] => 
+    [payment_method] => transfer
+)
+
+Processing booking for parking_id: 19, user_id: 2
+Time slot already booked
+2026-02-25 20:57:15 - process-booking.php started
+REQUEST_METHOD: GET
+POST data: Array
+(
+)
+
+Not POST request - redirecting to index
+2026-02-25 20:57:59 - process-booking.php started
+REQUEST_METHOD: GET
+POST data: Array
+(
+)
+
+Not POST request - redirecting to index

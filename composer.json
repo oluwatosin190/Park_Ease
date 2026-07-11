@@ -1,0 +1,11 @@
+{
+    "name": "user/park_ease",
+    "autoload": {
+        "psr-4": {
+            "User\\ParkEase\\": "src/"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    }
+}
